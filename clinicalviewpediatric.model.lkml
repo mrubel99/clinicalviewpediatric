@@ -25,8 +25,8 @@ datagroup: no_cache{
 
 
 explore: bp_studydetail {
-  label: "BP ClinicalView Data Model"
-  group_label: "BP ClinicalView"
+  label: "Pedi ClinicalView Data Model"
+  group_label: "Pedi ClinicalView"
   description: "Clinical View Project, PO and Savings Data"
   persist_with: no_cache
   #studydetail_change
@@ -88,8 +88,8 @@ explore: bp_studydetail {
 }
 
 explore: bp_podetail {
-  label: "BP ClinicalView PO Data Model"
-  group_label: "BP ClinicalView"
+  label: "Pedi ClinicalView PO Data Model"
+  group_label: "Pedi ClinicalView"
   description: "PO Data"
   persist_with: podetail_change
   #studydetail_change
@@ -136,9 +136,9 @@ explore: bp_podetail {
 }
 
 explore: bp_projectdetail{
-  label: "BP Project Details"
-  group_label: "BP ClinicalView"
-  description: "BP Project Details"
+  label: "Pedi Project Details"
+  group_label: "Pedi ClinicalView"
+  description: "Pedi Project Details"
   extends: [bp_studydetail]
   from: bp_studydetail
   view_name: bp_studydetail
@@ -182,8 +182,8 @@ explore: bp_studydetailenduser{
 
 #  view_name: bp_studydetail
   view_name: cache_bpdim_podetail_full
-  label: "BP Annual All Spend Data"
-  group_label: "BP End User Explores"
+  label: "Pedi Annual All Spend Data"
+  group_label: "Pedi End User Explores"
   description: "Line item data showing both categorized and uncategorized spend over the most recent year"
   persist_with: podetail_change
 
@@ -299,8 +299,8 @@ explore: bp_studydetailyankeeenduser
 
 #  view_name: bp_studydetail
   view_name: cache_bpdim_podetail_full
-  label: "BP Annual All Spend Data - YA"
-  group_label: "BP End User Explores"
+  label: "Pedi Annual All Spend Data - YA"
+  group_label: "Pedi End User Explores"
   description: "Line item data showing both categorized and uncategorized spend over the most recent year"
   persist_with: podetail_change
 
