@@ -1,4 +1,4 @@
-connection: "bp_vinylbluepointdev"
+connection: "bp_vinylbluepointpediatricdev"
 
 include: "/Clinical_Views/*.view.lkml"
 #include: "*.dashboard"
