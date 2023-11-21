@@ -1,6 +1,7 @@
 view: bp_facilities{
   view_label: "BP Facilities"
-  sql_table_name: dbo.lookBPFacility  ;;
+  sql_table_name: dbo.lookBPFacility;;
+
 
   dimension: facility_skey {
     type: number
@@ -12,8 +13,8 @@ view: bp_facilities{
     group_label: "Facility Info"
     type: string
     sql: ${TABLE}.FacilityName ;;
-    suggest_explore: bp_facility_suggestions
-    suggest_dimension: bp_facility_suggestions.facility_name
+##    suggest_explore: bp_facility_suggestions
+##    suggest_dimension: bp_facility_suggestions.facility_name
   }
 
   dimension: facility_owner {
