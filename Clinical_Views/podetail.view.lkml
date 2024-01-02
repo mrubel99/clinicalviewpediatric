@@ -269,23 +269,23 @@ view: bp_podetail{
     drill_fields: [bp_facilities.facility_name,bp_categories.study_name,Total_PO_Spend]
     link: {
       label: "Back to Home Dashboard"
-      url: "/dashboards/FTvZmlSkAIhagJZyExhOhE?BP%20Category={{ filterable_value | url_encode }}&Facility={{ _filters['bp_facilities.facility_name'] | url_encode }}&Region={{ _filters['bp_facilities.facility_custom_region'] | url_encode }}"
+      url: "/dashboards/152?BP%20Category={{ filterable_value | url_encode }}&Facility={{ _filters['bp_facilities.facility_name'] | url_encode }}&Region={{ _filters['bp_facilities.facility_custom_region'] | url_encode }}"
     }
     link: {
       label: "View Trend Summary Dashboard"
-      url: "/dashboards/hFZnDlnqb39QDudvrjuI3t?BP%20Category={{ filterable_value | url_encode }}&Facility={{ _filters['bp_facilities.facility_name'] | url_encode }}&Region={{ _filters['bp_facilities.facility_custom_region'] | url_encode }}"
+      url: "/dashboards/154?BP%20Category={{ filterable_value | url_encode }}&Facility={{ _filters['bp_facilities.facility_name'] | url_encode }}&Region={{ _filters['bp_facilities.facility_custom_region'] | url_encode }}"
     }
     link: {
       label: "View Trend Detail Dashboard"
-      url: "/dashboards/Bp47IJCULCJA60bAZU4OmZ?BP%20Category={{ filterable_value | url_encode }}&Facility={{ _filters['bp_facilities.facility_name'] | url_encode }}&Region={{ _filters['bp_facilities.facility_custom_region'] | url_encode }}"
+      url: "/dashboards/155?BP%20Category={{ filterable_value | url_encode }}&Facility={{ _filters['bp_facilities.facility_name'] | url_encode }}&Region={{ _filters['bp_facilities.facility_custom_region'] | url_encode }}"
     }
     link: {
       label: "View BP Category Data"
-      url:  "/dashboards/F4e5BTmIB2vL0dTu6TGB9d?BP%20Category={{ filterable_value | url_encode }}&Facility={{ _filters['bp_facilities.facility_name'] | url_encode }}&Region={{ _filters['bp_facilities.facility_custom_region'] | url_encode }}"
+      url:  "/dashboards/157?BP%20Category={{ filterable_value | url_encode }}&Facility={{ _filters['bp_facilities.facility_name'] | url_encode }}&Region={{ _filters['bp_facilities.facility_custom_region'] | url_encode }}"
     }
     link: {
       label: "View Target Savings Report"
-      url: "/dashboards/OrYnjIUR71GCOhdItyXc6c?Facility={{ _filters['bp_facilities.facility_name'] | url_encode }}&Region={{ _filters['bp_facilities.facility_custom_region'] | url_encode }}"
+      url: "/dashboards/153?Facility={{ _filters['bp_facilities.facility_name'] | url_encode }}&Region={{ _filters['bp_facilities.facility_custom_region'] | url_encode }}"
     }
   }
 
